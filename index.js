@@ -27,6 +27,6 @@ var elements = []
     elements.push(x)
     var y = elements.join
   }
-  console.log(elements.join())
+  console.log("The line is currently:" + y)
 }
 }
