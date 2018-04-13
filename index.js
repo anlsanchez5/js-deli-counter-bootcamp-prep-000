@@ -22,9 +22,9 @@ function currentLine(katzDeli) {
   else {
 var elements = []    
   for (var i = 0; i < katzDeli.length; i++) {
-    var x = " " + parseInt(i+1) + ". " + katzDeli[i];
+    var x =parseInt(i+1) + ". " + katzDeli[i];
     elements.push(x)
-    var y = elements.join()
+    var y = elements.join(", ")
     console.log("The line is currently:" + y)
   }
   
