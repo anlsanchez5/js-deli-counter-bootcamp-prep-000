@@ -26,6 +26,6 @@ function currentLine(katzDeli) {
      elements.push(parseInt(i+1) + ". " + katzDeli[i]);
      var y = elements.join(", ")
   }
-  return "The line is current:" + y
+  return "The line is currently: " + y
 }
 }
