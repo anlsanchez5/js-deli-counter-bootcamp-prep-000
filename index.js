@@ -1,5 +1,5 @@
 function takeANumber(katzDeli, Name) {
-  katzDeliLine.push(Name)
+  katzDeli.push(Name)
  var greeting = "Welcome, " + Name + ". " + "You are number " + parseInt(katzDeli.length) + " in line."
  return greeting
 }
