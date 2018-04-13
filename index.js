@@ -25,6 +25,7 @@ var elements = []
   for (var i = 0; i < katzDeli.length; i++) {
     var x = " " + parseInt(i+1) + ". " + katzDeli[i];
     elements.push(x)
+    var y = elements.join
   }
   console.log(elements.join())
 }
