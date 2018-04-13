@@ -25,6 +25,6 @@ var elements = []
   for (var i = 0; i < katzDeli.length; i++) {
     elements.push(parseInt(i+1) + ". " + katzDeli[i]);
   }
-  console.log("The line is currently: " + elements.join() )
+  console.log(elements.join())
 }
 }
